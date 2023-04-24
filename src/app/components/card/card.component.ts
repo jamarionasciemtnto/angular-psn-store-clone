@@ -8,9 +8,9 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
 
 	@Input()
-	gameCover:string = ""
+	gameCover:string = "assets/bt-1.jpg"
 	@Input()
-	gameLabel:string=""
+	gameLabel:string="DIGITAL"
 	@Input()
 	gameType:string ="XPTO | PS4"
 	@Input()
