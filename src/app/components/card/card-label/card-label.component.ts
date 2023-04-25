@@ -13,6 +13,7 @@ export class CardLabelComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.gameLabel, 'have a cover');
   }
 
 }
